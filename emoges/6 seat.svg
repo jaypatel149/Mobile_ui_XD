@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.391" height="68.391" viewBox="0 0 68.391 68.391">
+  <defs>
+    <filter id="_077c59e3c6d2b9cbe07c0d6515771903" x="0" y="0" width="68.391" height="68.391" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#040414" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_6_seat" data-name="6 seat" transform="translate(-238 -156)">
+    <g transform="matrix(1, 0, 0, 1, 238, 156)" filter="url(#_077c59e3c6d2b9cbe07c0d6515771903)">
+      <path id="_077c59e3c6d2b9cbe07c0d6515771903-2" data-name="077c59e3c6d2b9cbe07c0d6515771903" d="M25.2,0A25.2,25.2,0,1,1,0,25.2,25.2,25.2,0,0,1,25.2,0Z" transform="translate(9 6)" fill="#fff" opacity="0.336"/>
+    </g>
+    <g id="Group_38055" data-name="Group 38055" transform="translate(-724 -5674.609)">
+      <g id="Rectangle_22640" data-name="Rectangle 22640" transform="translate(984 5850)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="15" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="14" height="14" fill="none"/>
+      </g>
+      <g id="Rectangle_22644" data-name="Rectangle 22644" transform="translate(1002 5850)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="5" fill="none"/>
+      </g>
+      <g id="Rectangle_22645" data-name="Rectangle 22645" transform="translate(1002 5859)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="5" fill="none"/>
+      </g>
+      <g id="Rectangle_22646" data-name="Rectangle 22646" transform="translate(984 5868)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="5" fill="none"/>
+      </g>
+      <g id="Rectangle_22647" data-name="Rectangle 22647" transform="translate(993 5868)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="5" fill="none"/>
+      </g>
+      <g id="Rectangle_22648" data-name="Rectangle 22648" transform="translate(1002 5868)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="6" height="6" stroke="none"/>
+        <rect x="0.5" y="0.5" width="5" height="5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

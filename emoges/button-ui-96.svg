@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276" height="53" viewBox="0 0 276 53">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f62e5"/>
+      <stop offset="1" stop-color="#43acfd"/>
+    </linearGradient>
+  </defs>
+  <rect id="button" width="276" height="53" rx="26.5" fill="url(#linear-gradient)"/>
+</svg>

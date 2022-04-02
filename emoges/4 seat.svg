@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.391" height="68.391" viewBox="0 0 68.391 68.391">
+  <defs>
+    <filter id="_077c59e3c6d2b9cbe07c0d6515771903" x="0" y="0" width="68.391" height="68.391" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#040414" flood-opacity="0.18"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_4_seat" data-name="4 seat" transform="translate(-238 -156)" opacity="0.5">
+    <g transform="matrix(1, 0, 0, 1, 238, 156)" filter="url(#_077c59e3c6d2b9cbe07c0d6515771903)">
+      <path id="_077c59e3c6d2b9cbe07c0d6515771903-2" data-name="077c59e3c6d2b9cbe07c0d6515771903" d="M25.2,0A25.2,25.2,0,1,1,0,25.2,25.2,25.2,0,0,1,25.2,0Z" transform="translate(9 6)" fill="#fff" opacity="0.336"/>
+    </g>
+    <g id="Group_38054" data-name="Group 38054" transform="translate(-724 -5674.609)">
+      <g id="Rectangle_22640" data-name="Rectangle 22640" transform="translate(984 5850)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="11" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="10" fill="none"/>
+      </g>
+      <g id="Rectangle_22641" data-name="Rectangle 22641" transform="translate(984 5863)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="11" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="10" fill="none"/>
+      </g>
+      <g id="Rectangle_22642" data-name="Rectangle 22642" transform="translate(997 5850)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="11" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="10" fill="none"/>
+      </g>
+      <g id="Rectangle_22643" data-name="Rectangle 22643" transform="translate(997 5863)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="11" height="11" stroke="none"/>
+        <rect x="0.5" y="0.5" width="10" height="10" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,222 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: "rubik" sans-serif;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.bell {
+    height: 1.5rem;
+}
+
+.wallet {
+    margin-right: .5rem;
+}
+
+.dollar {
+    height: 14px;
+    margin-left: .5rem;
+}
+
+.nav-bar {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.option {
+    font-size: 19px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.verticalLie {
+    padding: 1px;
+    background-color: #00B3FF;
+    width: 3.5rem;
+    border-radius: 10%;
+}
+
+.main-header {
+    padding: 20PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-num {
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    border-radius: 27px;
+}
+
+.valletBar {
+    position: relative;
+}
+
+.icon-20k {
+    font-size: 9px;
+    height: 11px;
+    text-align: center;
+    width: 1.5rem;
+    color: white;
+    background-color: #01C93E;
+    border-radius: 26px;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+}
+
+.searchBox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar {
+    background-color: #EAEAEA;
+    border: none;
+    width: 19rem;
+    padding: 1rem;
+    border-radius: 15px;
+    outline: none;
+    transition: all 0.2s linear;
+    margin-bottom: 1.3rem;
+}
+
+.searchIcon {
+    width: 1.6rem;
+    height: 1.6rem;
+    color: #666666;
+    position: absolute;
+    margin-left: 17rem;
+    top: .5rem;
+}
+
+.num {
+    width: 2rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.popular-txt {
+    border-bottom: 0.3rem solid #00b3ff;
+    padding-bottom: 2.5rem;
+}
+
+.follower-dollar {
+    display: flex;
+    width: 9.4rem;
+    height: 1.6rem;
+    gap: 5px;
+    position: absolute;
+    width: 10px;
+    top: 10px;
+    left: .4rem;
+}
+
+.follower {
+    width: 1rem;
+    height: 1.1rem;
+}
+
+.followers {
+    font-size: .7rem;
+    color: #fff;
+}
+
+.coin {
+    height: 1rem;
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    column-gap: 3px;
+    row-gap: 3px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 16px;
+    margin: auto;
+    padding-left: 1rem;
+}
+
+.txt {
+    font-size: 12px;
+    padding-left: 1rem;
+}
+
+.logo-1-container {
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    bottom: .9rem;
+    left: 11px;
+}
+
+.img-1-logo {
+    position: relative;
+}
+
+.logo-1 {
+    border: 1px solid #eaeaea;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+}
+
+.video-icon {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 1rem;
+}
+
+.video-logo {
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    z-index: 2;
+    background-color: white;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1rem 10rem 1rem;
+}
+
+.icon-color {
+    color: #00B3FF;
+    width: 2rem;
+    height: 2rem;
+}
