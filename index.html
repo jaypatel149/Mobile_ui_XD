@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=M+PLUS+Rounded+1c:wght@100;300;400&family=Poppins:wght@100&family=Roboto:wght@400;500&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
     <link rel="stylesheet" href="style.css">
 
     <title>iphone Mobile-UI</title>
@@ -17,31 +19,34 @@
 
 <body>
     <div class="main-container">
-        <header class="main-header">
-            <img src="./emoges/notification-bell.png" alt="notification" class="bell" />
-            <div class="two-icon">
-                <div class="main-num">
-                    <img src="./emoges/dollar-coin.svg" alt="coin" class="dollar" />
-                    <p class="num">130</p>
+        <div class="position-container">
+            <header class="main-header">
+                <img src="./emoges/notification-bell.png" alt="notification" class="bell" />
+                <div class="two-icon">
+                    <div class="main-num">
+                        <img src="./emoges/dollar-coin.svg" alt="coin" class="dollar" />
+                        <p class="num">130</p>
+                    </div>
+                    <div class="valletBar">
+                        <img src="./emoges/wallet.svg" alt="wallet" class="wallet" />
+                        <p class="icon-20k">20k</p>
+                    </div>
                 </div>
-                <div class="valletBar">
-                    <img src="./emoges/wallet.svg" alt="wallet" class="wallet" />
-                    <p class="icon-20k">20k</p>
+            </header>
+            <nav class="nav-bar">
+                <div>
+                    <p class="option">Popular</p>
+                    <hr class="verticalLie"></hr>
                 </div>
+                <p class="option">Following</p>
+                <p class="option">Nearby</p>
+                <p class="option">Multi-Guset</p>
+            </nav>
+            <div class="searchBox">
+                <input type="seachText" class="searchBar" placeholder="Search" />
+                <ion-icon name="search-outline" class="searchIcon"></ion-icon>
+
             </div>
-        </header>
-        <nav class="nav-bar">
-            <div>
-                <p class="option">Popular</p>
-                <hr class="verticalLie"></hr>
-            </div>
-            <p class="option">Following</p>
-            <p class="option">Nearby</p>
-            <p class="option">Multi-Guset</p>
-        </nav>
-        <div class="searchBox">
-            <input type="seachText" class="searchBar" placeholder="Search" />
-            <ion-icon name="search-outline" class="searchIcon"></ion-icon>
         </div>
         <div class="img-container">
             <div class="img-1-logo">

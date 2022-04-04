@@ -4,13 +4,21 @@
 }
 
 body {
-    font-family: "rubik" sans-serif;
+    font-family: "Inter" sans-serif;
     border: 1px solid #EAEAEA;
     box-sizing: border-box;
 }
 
 .main-container {
     width: 100%;
+}
+
+.position-container {
+    position: absolute;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #fff;
 }
 
 .bell {
@@ -28,16 +36,16 @@ body {
 
 .nav-bar {
     font-size: 1rem;
+    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
     margin: 1rem;
 }
 
 .option {
-    font-size: 19px;
+    font-size: 17px;
     margin: 0 auto;
     color: #000000;
-    font-weight: bolder;
 }
 
 .verticalLie {
@@ -125,12 +133,12 @@ body {
 
 .follower-dollar {
     display: flex;
-    width: 9.4rem;
     height: 1.6rem;
     gap: 5px;
+    align-items: center;
     position: absolute;
     width: 10px;
-    top: 10px;
+    top: 7px;
     left: .4rem;
 }
 
@@ -151,6 +159,10 @@ body {
 .pic {
     height: 100%;
     width: 100%;
+}
+
+.footer-pic {
+    height: 120%;
 }
 
 .img-container {
@@ -177,7 +189,7 @@ body {
     position: absolute;
     display: flex;
     color: #ffffff;
-    bottom: .9rem;
+    bottom: 7px;
     left: 11px;
 }
 
@@ -198,7 +210,9 @@ body {
     justify-items: center;
     position: absolute;
     width: 100%;
-    bottom: 1rem;
+    position: sticky;
+    bottom: 5rem;
+    left: 5.7rem;
 }
 
 .video-logo {
@@ -212,7 +226,13 @@ body {
 .footer-main {
     display: flex;
     justify-content: space-around;
-    padding: 1rem 1rem 10rem 1rem;
+    /* padding: 1rem 1rem 5rem 1rem; */
+    position: absolute;
+    position: sticky;
+    background-color: #fff;
+    padding: .9rem;
+    z-index: 1;
+    bottom: 0rem;
 }
 
 .icon-color {
